@@ -1,4 +1,3 @@
-const e = require("express");
 const dataBase = require("./database/db");
 const saveOrphanage = require("./database/saveOrphanage");
 
@@ -12,6 +11,7 @@ module.exports = {
 
       const orphanages = await db.all("SELECT * FROM orphanages");
       return response.render("orphanages", { orphanages });
+    
     } catch (error) {
       console.log(error);
       return response.send(
@@ -49,6 +49,7 @@ module.exports = {
   },
   createOrphanage(request, response) {
     return response.render("create-orphanage");
+  
   },
   async saveOrphanage(request, response) {
     const fields = request.body;

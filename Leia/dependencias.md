@@ -16,3 +16,8 @@ npm install hbs
 
 npm install sqlite-async
 
+Depois de instalar as dependencias e o sqlite é só executar o npm start =D
+
+# Executar projeto !!
+npm start
+

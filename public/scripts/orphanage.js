@@ -46,5 +46,4 @@ L.marker([lat,lng],{icon})
         imageContainer.src = image.src;
 
         button.classList.add('active');
-
   }

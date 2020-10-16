@@ -89,10 +89,13 @@ function toggleSelect(event) {
 
   //verificar se é sim ou não
 }
-function validar(event) {
-  const needsLatandLng = true;
-  if (needsLatandLng) {
-    event.preventDefault();
-    alert("Selecione um ponto no mapa");
-  }
-}
+
+
+
+// function validar(event) {
+//   const needsLatandLng = true;
+//   if (needsLatandLng) {
+//     event.preventDefault();
+//     alert("Selecione um ponto no mapa");
+//   }
+// }
